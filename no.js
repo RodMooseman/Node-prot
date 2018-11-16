@@ -3,7 +3,7 @@ var url = require('url');
 var fs = require('fs');
 var querystring = require('querystring');
 var MongoClient = require('mongodb').MongoClient;
-var isrod = "mongodb://rod:rod@10.191.237.56:27017/admin";
+var isrod = "mongodb://<user>:<pass>@<host>:<port>/admin";
 var mime =
 {
   'html':'text/html',
